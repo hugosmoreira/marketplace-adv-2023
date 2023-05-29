@@ -136,6 +136,7 @@ const RegisterModal = () => {
     onClose={registerModal.onClose}
     onSubmit={handleSubmit(onSubmit)}
     body={bodyContent}
+    footer={footerContent}
     
   />
   )
